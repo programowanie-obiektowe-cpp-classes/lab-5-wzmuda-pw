@@ -7,9 +7,9 @@
 #include <algorithm> 
 
 
-inline std::vector foo(std::list& people)
+inline std::vector <char> foo(std::list <Human>& people)
 {
-    std::vector result;
+    std::vector<char> result;
     
     result.reserve(people.size());
 
