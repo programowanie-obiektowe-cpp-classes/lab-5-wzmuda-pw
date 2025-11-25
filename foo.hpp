@@ -7,15 +7,14 @@
 #include <algorithm> 
 
 
-inline std::vector< char > foo(std::list< Human >& people)
+inline std::vector foo(std::list& people)
 {
-    std::vector<char> result;
+    std::vector result;
     
     result.reserve(people.size());
 
     for (auto& human : people)
     {
-        
         human.birthday();
 
         
